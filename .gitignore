@@ -1,0 +1,18 @@
+# .NET
+backend/bin/
+backend/obj/
+backend/*.user
+backend/.vs/
+
+# React
+frontend/node_modules/
+frontend/build/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# General
+.DS_Store
+*.log
+*.swp
