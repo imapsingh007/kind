@@ -29,8 +29,8 @@ app.MapGet("/api/items", () =>
     var items = new[]
     {
         new { Id = 1, Name = "Apple",  Price = 1.50 },
-        new { Id = 2, Name = "Banana", Price = 0.75 },
-        new { Id = 3, Name = "Cherry", Price = 3.00 }
+        new { Id = 2, Name = "Banana", Price = 6.75 },
+        new { Id = 3, Name = "Cherry", Price = 4.00 }
     };
     return Results.Ok(items);
 });
